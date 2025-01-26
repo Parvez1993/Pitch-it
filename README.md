@@ -17,3 +17,13 @@ This project is built with **Next.js 15** and incorporates a range of modern too
 - **Parallel and Sequential Data Fetching**: Ensures optimal performance through advanced strategies.  
 
 This stack ensures a robust, scalable, and user-friendly web application tailored for modern development needs.  
+
+
+Env Setup (if you need to setup): 
+AUTH_SECRET=""
+AUTH_GITHUB_ID=""
+AUTH_GITHUB_SECRET=""
+NEXT_PUBLIC_SANITY_PROJECT_ID=""
+NEXT_PUBLIC_SANITY_DATASET=""
+NEXT_PUBLIC_SANITY_API_VERSION="vX" 
+SANITY_WRITE_TOKEN=""
