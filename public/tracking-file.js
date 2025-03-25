@@ -22,7 +22,7 @@
 
     return {
       // Production endpoint (replace with your actual endpoint)
-      endpoint: "https://api.alpha.tenscores.com/api/auth/collect",
+      endpoint: "https://api.alpha.tenscores.com/api/auth/debug-params",
       clientId: clientIdMatch
         ? decodeURIComponent(clientIdMatch[1])
         : "default_client",
