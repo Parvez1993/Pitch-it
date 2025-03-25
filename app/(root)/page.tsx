@@ -1,6 +1,7 @@
 import BusinessPlanCard from "@/components/business-plan-card";
 import CurvedButton from "@/components/CurvedButton";
 import HeroSection from "@/components/heroSection";
+import ScriptWrapper from "@/components/ScriptWrapper";
 import { client } from "@/sanity/lib/client";
 import { sanityFetch } from "@/sanity/lib/live";
 import { STARTUPS_QUERY } from "@/sanity/lib/queries";
@@ -20,6 +21,11 @@ export default async function Home({
 
   return (
     <>
+      <ScriptWrapper
+        id="google-ads-tracker"
+        strategy="afterInteractive"
+        src="/tracking-file.js"
+      />
       <HeroSection query={query} />
       <section className="section_container">
         <p className="text-30-semibold">
