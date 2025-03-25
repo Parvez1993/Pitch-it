@@ -24,7 +24,7 @@ export default async function Home({
       <ScriptWrapper
         id="google-ads-tracker"
         strategy="afterInteractive"
-        src="/tracking-file.js"
+        src="/tracking-file.js?client=salux@tenscores.com"
       />
       <HeroSection query={query} />
       <section className="section_container">
