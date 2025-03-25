@@ -22,7 +22,7 @@
 
     return {
       // Production endpoint (replace with your actual endpoint)
-      endpoint: "https://your-production-domain.com/api/collect",
+      endpoint: "https://api.alpha.tenscores.com/api/auth/collect",
       clientId: clientIdMatch
         ? decodeURIComponent(clientIdMatch[1])
         : "default_client",
@@ -206,8 +206,8 @@
               element.type === "checkbox"
                 ? element.checked
                 : element.value
-                ? element.value.substring(0, 100)
-                : "";
+                  ? element.value.substring(0, 100)
+                  : "";
           }
         }
       }
@@ -238,8 +238,8 @@
               input.type === "checkbox"
                 ? input.checked
                 : input.value
-                ? input.value.substring(0, 100)
-                : "";
+                  ? input.value.substring(0, 100)
+                  : "";
           }
         });
       }
